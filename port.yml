@@ -1,0 +1,9 @@
+# enrichService.yml
+
+- identifier: "bermanguy/test-repo-2"
+  blueprint: service 
+  properties:
+    type: "backend"
+    lifecycle: "Production"
+  relations:
+    domain: "payment"
